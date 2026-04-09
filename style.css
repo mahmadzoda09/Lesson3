@@ -180,14 +180,81 @@ button:hover{
     border: 2px solid #D7B18D;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
+.section5{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.section5 .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: auto;
+    background-color: #F4F4F5;
+    gap: 100px;
+    padding: 20px;
+    align-items: center;
+}
+.section5 .first nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section5 .first nav h1{
+    display: flex;
+    background-color: #28303D;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+.section5 input{
+    padding: 10px 30px 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.section5 .second{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    gap: 5px;
+    padding: 50px 0;
+}
+.radius{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding:4px 10px;
+}
+.second nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 50px;
+    max-width: 1400px;
+    margin: auto;
+}
+.display{
+    display: none;
+}
+footer{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding: 20px 100px;
+    color: transparent;
+}
+footer a{
+    color: transparent;
+}
 
 
 
@@ -327,5 +394,26 @@ button:hover{
     }
     .section4{
         padding: 250px 20px;
+    }
+    .first , .second{
+        flex-direction: column;
+    }
+    .section5 img{
+        display: none;
+    }
+    .second{
+        padding: 25px !important;
+        align-items: start !important;
+    }
+    .display{
+        display: inline !important;    
+        padding-left: 15px;
+    }
+    footer{
+        color: #A4AAB6;
+        padding: 20px;
+    }
+    footer a{
+        color: black;
     }
 }
